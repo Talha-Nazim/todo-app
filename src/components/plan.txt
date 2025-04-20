@@ -1,0 +1,14 @@
+// App
+//  ├── TodoForm       // For input and adding new todos
+//  └── TodoList       // For displaying the list
+//       └── TodoItem  // For rendering individual todo with actions
+
+
+// 🛠 Example Flow:
+// App initializes todos via useState
+
+// App passes addTodo to TodoForm
+
+// App passes todos, toggleComplete, deleteTodo to TodoList
+
+// TodoList passes each todo, plus callbacks, into TodoItem
